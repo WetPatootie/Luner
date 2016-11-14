@@ -16,6 +16,7 @@ function luna(lun, ner, lol)
   }
 }
 
+//Can't stop the luner :crescent_moon: :nerd:
 for (var i = 0; i < 1000; i++) {
   meme("You Tried ", "Escaping The Luner for " + i  + " Times.");
   luna("Stop Trying ", "you can't escape the luner, you've been trying for " + i + " Times");
