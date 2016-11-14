@@ -1,0 +1,7 @@
+html {
+  background: url("http://news.nationalgeographic.com/content/dam/news/2016/09/28/Black-Moon/01-black-moon.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
