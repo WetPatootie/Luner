@@ -8,8 +8,6 @@ function popout() {
 }
 }
 
-
-var i = 0;
 function meme(dank, dork) {
     if (i < 50) {
         alert(dank + dork);
@@ -33,8 +31,7 @@ function myFunction() {
 }
 
 function name() {
-    var namePrompt;
-    namePrompt=prompt("What's Your Name Buddy?");
+    var namePrompt = ("What's Your Name Buddy?");
     document.getElementById("rexx").innerHTML = "Welcome to Tay Is Bae Website, " + namePrompt +  "!";
 }
 name();
