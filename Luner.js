@@ -1,7 +1,7 @@
 function popout() {
-    for (var i = 0; i <= 100; i++) {
-  firstAlert("You Tried ", "Escaping The Luner for " + i  + " Times.");
-  secondAlert("Stop Trying ", "you can't escape the luner, you've been trying for " + i + " Times");
+    for (var i = 0; i < 100; i++) {
+  firstAlert("You Tried ", "escaping the Luner " + i  + " times.");
+  secondAlert("Stop Trying, ", "you can't escape the Luner. You've been trying " + i + " times");
 }
 }
 
