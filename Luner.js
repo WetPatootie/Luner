@@ -3,18 +3,18 @@ var Daddy = Names[Math.floor(Math.random() * Names.length)];
 
 function popout() {
     for (var i = 0; i <= 100; i++) {
-  meme("You Tried ", "Escaping The Luner for " + i  + " Times.");
-  luna("Stop Trying ", "you can't escape the luner, you've been trying for " + i + " Times");
+  firstAlert("You Tried ", "Escaping The Luner for " + i  + " Times.");
+  secondAlert("Stop Trying ", "you can't escape the luner, you've been trying for " + i + " Times");
 }
 }
 
-function meme(dank, dork) {
+function firstAlert(dank, dork) {
     if (i < 50) {
         alert(dank + dork);
     }
 }
 
-function luna(lun, ner) {
+function secondAlert(lun, ner) {
   if (i >= 50) {
     alert(lun + ner);
   }
