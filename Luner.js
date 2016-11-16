@@ -1,6 +1,3 @@
-var Names = ["MEMES", "HARDER DADDY :tayrexx:", "LE", "Fearless Swiftie is Awesome", "Holeguy", "WHERES MY FUCKING PACKAGE!!!!", "CosGOD"];
-var Daddy = Names[Math.floor(Math.random() * Names.length)];
-
 function popout() {
     for (var i = 0; i <= 100; i++) {
   firstAlert("You Tried ", "Escaping The Luner for " + i  + " Times.");
@@ -20,10 +17,6 @@ function secondAlert(lun, ner) {
   }
 }
 
-function changeParagraph() {
-  document.getElementById("meh").innerHTML = Daddy;
-}
-
 function myFunction() {
     document.body.style.backgroundColor = "#f3f3f3";
     document.body.style.backgroundImage = "url('http://i.imgur.com/YTNRPWE.jpg')";
@@ -33,4 +26,4 @@ function namePrompt() {
     var namePrompt = prompt("What's Your Name Buddy?");
     document.getElementById("rexx").innerHTML = "Welcome to Tay Is Bae Website, " + namePrompt +  "!";
 }
-namePrompt();
+window.onload = namePrompt;
