@@ -34,7 +34,7 @@ function myFunction() {
 
 function name() {
     var namePrompt;
-    Andri=prompt("What's Your Name Buddy?");
-    document.getElementById("rexx").innerHTML = "Welcome to Tay Is Bae Website, " + Andri +  "!";
+    namePrompt=prompt("What's Your Name Buddy?");
+    document.getElementById("rexx").innerHTML = "Welcome to Tay Is Bae Website, " + namePrompt +  "!";
 }
 name();
