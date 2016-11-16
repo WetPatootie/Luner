@@ -20,7 +20,6 @@ function secondAlert(lun, ner) {
   }
 }
 
-
 function changeParagraph() {
   document.getElementById("meh").innerHTML = Daddy;
 }
@@ -30,8 +29,8 @@ function myFunction() {
     document.body.style.backgroundImage = "url('http://i.imgur.com/YTNRPWE.jpg')";
 }
 
-function name() {
-    var namePrompt = ("What's Your Name Buddy?");
+function namePrompt() {
+    var namePrompt = prompt("What's Your Name Buddy?");
     document.getElementById("rexx").innerHTML = "Welcome to Tay Is Bae Website, " + namePrompt +  "!";
 }
-name();
+namePrompt();
